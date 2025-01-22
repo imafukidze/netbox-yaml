@@ -1,11 +1,8 @@
 ---
 plugin: netbox.netbox.nb_inventory
-api_endpoint: https://172.30.63.237
-token: 449572a7d7212ea72ad2b7d910173474b2d71332
+api_endpoint: http://192.168.1.178:8000
+token: 205ae3d78a1fb30a6fddbdaf9f6e6a3cead9be7d
 validate_certs: false
 config_context: false
-ansible_user: admin
-ansible_password: admin
-ansible_connection: network_cli
 group_by:
  - device_roles
